@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mediamonks.FirebaseAirshipConflictExample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    
+    <name>FirebaseAirshipConflictExample</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="info@mediamonks.com" href="https://mediamonks.com">Media.Monks</author>
+    
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    
+    <!-- Urban Airship -->
+    <preference name="com.urbanairship.development_app_key" value="1ltw48kVSPKmkMNUMNi33A" />
+    <preference name="com.urbanairship.development_app_secret" value="aPkdVNZ2Saa5D6O5ggEemA" />
+    <preference name="com.urbanairship.in_production" value="false" />
+    <preference name="com.urbanairship.auto_launch_message_center" value="true" />
+    <preference name="com.urbanairship.site" value="US" />
+    <preference name="com.urbanairship.ios_foreground_notification_presentation_alert" value="true"/>
+    <preference name="com.urbanairship.ios_foreground_notification_presentation_badge" value="true"/>
+    <preference name="com.urbanairship.ios_foreground_notification_presentation_sound" value="true"/>
+    <preference name="com.urbanairship.clear_badge_onlaunch" value="true" />
+</widget>

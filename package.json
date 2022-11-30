@@ -1,0 +1,35 @@
+{
+  "name": "com.mediamonks.firebaseairshipconflictexample",
+  "displayName": "FirebaseAirshipConflictExample",
+  "version": "1.0.0",
+  "description": "A minimal example demonstrating conflict of Firebase and Airship plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-firebasex": "^15.0.0",
+    "urbanairship-cordova": "^14.5.0"
+  },
+  "cordova": {
+    "plugins": {
+      "urbanairship-cordova": {},
+      "cordova-plugin-firebasex": {
+        "FIREBASE_FCM_AUTOINIT_ENABLED": "false",
+        "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
+        "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
+        "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+        "IOS_USE_PRECOMPILED_FIRESTORE_POD": "false"
+      }
+    },
+    "platforms": [
+      "ios"
+    ]
+  }
+}

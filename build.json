@@ -1,0 +1,16 @@
+{
+    "ios": {
+        "debug": {
+            "codeSignIdentity": "Apple Development",
+            "provisioningProfile": "FirebaseAirshipConflictExample | Development",
+            "developmentTeam": "BSQK567LG9",
+            "packageType": "development"
+        },
+        "release": {
+            "codeSignIdentity": "iPhone Distribution",
+            "provisioningProfile": "<TBD>",
+            "developmentTeam": "<TBD>",
+            "packageType": "app-store"
+        }
+    }
+}
