@@ -19,4 +19,8 @@
     <preference name="com.urbanairship.ios_foreground_notification_presentation_badge" value="true"/>
     <preference name="com.urbanairship.ios_foreground_notification_presentation_sound" value="true"/>
     <preference name="com.urbanairship.clear_badge_onlaunch" value="true" />
+
+    <platform name="android">
+        <resource-file src="google-services.json" target="app/google-services.json" />
+    </platform>
 </widget>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "600146777670",
+    "project_id": "fir-pluginconflict",
+    "storage_bucket": "fir-pluginconflict.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600146777670:android:032884117d5736bb485c47",
+        "android_client_info": {
+          "package_name": "com.mediamonks.FirebaseAirshipConflictExample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600146777670-2ngi60pbirc8tojdmuosvmu76s3qri2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx9jWnl9nh7AJbDFRlR323cxb8X_T1jco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600146777670-2ngi60pbirc8tojdmuosvmu76s3qri2l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "600146777670-98ot6looi1pufl08k7qefs4n3a689cs8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mediamonks.firebase-plugin-conflict"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
